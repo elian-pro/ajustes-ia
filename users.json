@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "zebra2024",
+      "name": "Administrador"
+    },
+    {
+      "username": "Sofia Condos",
+      "password": "Zebra123",
+      "name": "Sofia Condos"
+    },
+    {
+      "username": "Success",
+      "password": "zebra2025",
+      "name": "Depto. Succes"
+    }
+  ]
+}
