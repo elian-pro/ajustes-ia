@@ -277,7 +277,7 @@
                     intentos++;
                     console.log(`🔍 Verificando status... Intento ${intentos}/${maxIntentos}`);
                     try {
-                        const response = await fetch(`https://n8n-n8n.9qd6cz.easypanel.host/webhook/zebra-status-check?sessionId=${sessionId}`, { method: 'GET' });
+                        const response = await fetch(`https://n8n-n8n.9qd6cz.easypanel.host/webhook/33307b27-fb69-4182-9c52-563c4112c056?sessionId=${sessionId}`, { method: 'GET' });
                         if (!response.ok) {
                             console.warn(`Status check failed: ${response.status}`);
                             if (intentos >= maxIntentos) {
